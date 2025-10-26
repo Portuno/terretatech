@@ -1,4 +1,4 @@
-import { X, Calendar, Users, Clock, Trophy, Zap, MapPin } from 'lucide-react';
+import { X, Calendar, Users, Clock, Trophy, Zap, MapPin, Sparkles, Code, Award } from 'lucide-react';
 
 interface VibeHackModalProps {
   isOpen: boolean;
@@ -45,10 +45,11 @@ export function VibeHackModal({ isOpen, onClose }: VibeHackModalProps) {
             </div>
 
             <div className="bg-gradient-to-br from-[#F5F5F7] to-white rounded-2xl p-6 md:p-8 mb-8 border border-gray-100">
+              <p className="text-lg text-gray-700 leading-relaxed mb-4">
+                Un finde intenso donde equipos de alumnos van a estar creando productos funcionales con nuevas herramientas de Inteligencia Artificial. Desde el armado del primer prototipo hasta tener algo listo y con primeros usuarios.
+              </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Un fin de semana intensivo para inventar la nueva era de la creación de productos.
-                Únete a mentes innovadoras y prueba técnicas de producción y distribución disruptivas
-                con el apoyo de nuevas herramientas. <strong className="text-[#007AFF]">¡Innovación sin límites!</strong>
+                Se les van a aportar herramientas de IA (y sus respectivos créditos), mentorías, múltiples ideas y desafíos en caso de que no sepan por donde arrancar, y los equipos conservarán el <strong className="text-[#007AFF]">100% de la Propiedad Intelectual</strong> que creen (código, branding, redes sociales y cualquier cosa que construyan va a ser de ustedes).
               </p>
             </div>
 
@@ -131,9 +132,28 @@ export function VibeHackModal({ isOpen, onClose }: VibeHackModalProps) {
               </div>
             </div>
 
+            <div className="bg-gradient-to-r from-[#007AFF]/10 to-[#008080]/10 rounded-2xl p-6 mb-8 border border-[#007AFF]/20">
+              <p className="text-center text-gray-700 leading-relaxed">
+                Más info e inscripciones en:{' '}
+                <a
+                  href="https://www.terretahub.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-bold text-[#007AFF] hover:text-[#008080] transition-colors"
+                >
+                  www.terretahub.com
+                </a>
+              </p>
+              <p className="text-center text-sm text-gray-600 mt-2">
+                (la web fue creada con la misma plataforma de IA que usaremos en la hackathon)
+              </p>
+            </div>
+
             <div className="text-center">
               <a
-                href="#registro-vibehack"
+                href="https://www.terretahub.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 bg-gradient-to-r from-[#FF9500] to-[#007AFF] text-white px-10 py-5 rounded-full hover:shadow-2xl transition-all duration-300 font-bold text-xl"
               >
                 <Trophy size={24} />
