@@ -1,4 +1,4 @@
-import { X, Calendar, Users, Clock, Trophy, Zap } from 'lucide-react';
+import { X, Calendar, Users, Clock, Trophy, Zap, MapPin } from 'lucide-react';
 
 interface VibeHackModalProps {
   isOpen: boolean;
@@ -28,15 +28,19 @@ export function VibeHackModal({ isOpen, onClose }: VibeHackModalProps) {
               <div className="inline-block bg-gradient-to-r from-[#FF9500] to-[#007AFF] px-4 py-2 rounded-full mb-4">
                 <span className="text-white font-bold text-sm">PRÓXIMO EVENTO</span>
               </div>
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                VibeHack
-              </h2>
-              <p className="text-2xl md:text-3xl font-semibold bg-gradient-to-r from-[#007AFF] to-[#008080] bg-clip-text text-transparent mb-6">
-                Build, Launch and Validate in 72h
-              </p>
-              <div className="flex items-center justify-center gap-2 text-lg text-gray-600">
+              <div className="flex items-center justify-center gap-2 text-lg text-gray-600 mb-4">
                 <Calendar size={20} className="text-[#FF9500]" />
-                <span className="font-semibold">Octubre 2025 • Valencia</span>
+                <span className="font-semibold">7, 8 y 9 de noviembre 2025 - Valencia</span>
+              </div>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
+                Construye, Lanza<br />y Valida en 72hs
+              </h2>
+              <p className="text-2xl md:text-3xl font-semibold bg-gradient-to-r from-[#007AFF] to-[#008080] bg-clip-text text-transparent mb-4">
+                Innovación sin límites
+              </p>
+              <div className="flex items-center justify-center gap-2 text-base text-gray-600">
+                <MapPin size={18} className="text-[#008080]" />
+                <span>Universidad Politécnica de Valencia</span>
               </div>
             </div>
 
