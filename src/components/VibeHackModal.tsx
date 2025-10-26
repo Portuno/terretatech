@@ -116,18 +116,12 @@ export function VibeHackModal({ isOpen, onClose }: VibeHackModalProps) {
               <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">
                 Patrocinadores y Colaboradores
               </h3>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <div className="bg-white rounded-lg p-4 flex items-center justify-center h-20 border border-gray-200">
-                  <span className="text-gray-400 font-medium">Sponsor 1</span>
+              <div className="flex flex-wrap justify-center items-center gap-8">
+                <div className="bg-white rounded-lg p-6 flex items-center justify-center border border-gray-200 hover:shadow-lg transition-shadow">
+                  <span className="text-2xl font-bold text-gray-800">Base44</span>
                 </div>
-                <div className="bg-white rounded-lg p-4 flex items-center justify-center h-20 border border-gray-200">
-                  <span className="text-gray-400 font-medium">Sponsor 2</span>
-                </div>
-                <div className="bg-white rounded-lg p-4 flex items-center justify-center h-20 border border-gray-200">
-                  <span className="text-gray-400 font-medium">Sponsor 3</span>
-                </div>
-                <div className="bg-white rounded-lg p-4 flex items-center justify-center h-20 border border-gray-200">
-                  <span className="text-gray-400 font-medium">Sponsor 4</span>
+                <div className="bg-white rounded-lg p-6 flex items-center justify-center border border-gray-200 hover:shadow-lg transition-shadow">
+                  <span className="text-2xl font-bold text-gray-800">Mabot</span>
                 </div>
               </div>
             </div>
