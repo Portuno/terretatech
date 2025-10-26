@@ -113,15 +113,26 @@ export function VibeHackModal({ isOpen, onClose }: VibeHackModalProps) {
             </div>
 
             <div className="bg-gradient-to-br from-[#F5F5F7] to-white rounded-2xl p-6 mb-8 border border-gray-100">
-              <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">
+              <h3 className="text-xl font-bold text-gray-900 mb-6 text-center">
                 Patrocinadores y Colaboradores
               </h3>
               <div className="flex flex-wrap justify-center items-center gap-8">
-                <div className="bg-white rounded-lg p-6 flex items-center justify-center border border-gray-200 hover:shadow-lg transition-shadow">
-                  <span className="text-2xl font-bold text-gray-800">Base44</span>
+                <div className="bg-white rounded-lg p-6 flex items-center justify-center h-28 w-40 border border-gray-200 hover:shadow-lg transition-shadow">
+                  <img
+                    src="/9c67457d-0e0b-46ad-bc4b-2566eb747ca8.webp"
+                    alt="Base44"
+                    className="max-h-20 max-w-full object-contain"
+                  />
                 </div>
-                <div className="bg-white rounded-lg p-6 flex items-center justify-center border border-gray-200 hover:shadow-lg transition-shadow">
-                  <span className="text-2xl font-bold text-gray-800">Mabot</span>
+                <div className="bg-white rounded-lg p-6 flex items-center justify-center h-28 w-40 border border-gray-200 hover:shadow-lg transition-shadow">
+                  <img
+                    src="/mabot-logo.png"
+                    alt="Mabot"
+                    className="max-h-20 max-w-full object-contain"
+                  />
+                </div>
+                <div className="bg-white rounded-lg p-6 flex items-center justify-center h-28 w-40 border-2 border-dashed border-gray-300 hover:border-[#007AFF] transition-colors">
+                  <span className="text-sm text-gray-500 text-center font-medium">Siguiente<br />Patrocinador</span>
                 </div>
               </div>
             </div>
