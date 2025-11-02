@@ -4,6 +4,7 @@ import { Hero } from './components/Hero';
 import { Mission } from './components/Mission';
 import { Pillars } from './components/Pillars';
 import { Actions } from './components/Actions';
+import { Community } from './components/Community';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { MembershipModal } from './components/MembershipModal';
@@ -23,6 +24,7 @@ function App() {
       <Mission />
       <Pillars />
       <Actions />
+      <Community />
       <Contact />
       <Footer />
       <MembershipModal

@@ -27,6 +27,9 @@ export function Header({ onOpenMembershipModal }: HeaderProps) {
             <a href="#acciones" className="text-gray-700 hover:text-[#007AFF] transition-colors font-medium">
               Acciones
             </a>
+            <a href="#comunidad" className="text-gray-700 hover:text-[#007AFF] transition-colors font-medium">
+              Comunidad
+            </a>
             <a href="#contacto" className="text-gray-700 hover:text-[#007AFF] transition-colors font-medium">
               Contacto
             </a>
@@ -54,6 +57,9 @@ export function Header({ onOpenMembershipModal }: HeaderProps) {
               </a>
               <a href="#acciones" className="text-gray-700 hover:text-[#007AFF] transition-colors font-medium">
                 Acciones
+              </a>
+              <a href="#comunidad" className="text-gray-700 hover:text-[#007AFF] transition-colors font-medium">
+                Comunidad
               </a>
               <a href="#contacto" className="text-gray-700 hover:text-[#007AFF] transition-colors font-medium">
                 Contacto

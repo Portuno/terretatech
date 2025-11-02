@@ -1,4 +1,4 @@
-import { Mail, Send, AlertCircle } from 'lucide-react';
+import { Mail, Send, AlertCircle, MessageCircle } from 'lucide-react';
 import { useState } from 'react';
 import { supabase } from '../lib/supabase';
 
@@ -112,10 +112,26 @@ export function Contact() {
             )}
 
             {submitted && (
-              <div className="mt-6 p-4 bg-green-50 border border-green-200 rounded-lg">
-                <p className="text-green-800 text-center font-medium">
-                  ¡Gracias por suscribirte! Te mantendremos informado.
-                </p>
+              <div className="mt-6 space-y-4">
+                <div className="p-4 bg-green-50 border border-green-200 rounded-lg">
+                  <p className="text-green-800 text-center font-medium">
+                    ¡Gracias por suscribirte! Te mantendremos informado.
+                  </p>
+                </div>
+                <div className="p-4 bg-blue-50 border border-blue-200 rounded-lg">
+                  <p className="text-blue-800 text-center font-medium mb-3">
+                    ¡Únete a nuestra comunidad en WhatsApp!
+                  </p>
+                  <a
+                    href="https://chat.whatsapp.com/G8CJlMhou6t1kZ21VPJZWJ?mode=wwt"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20ba5a] text-white px-6 py-2 rounded-lg font-semibold transition-colors"
+                  >
+                    <MessageCircle size={18} />
+                    Unirse a WhatsApp
+                  </a>
+                </div>
               </div>
             )}
 
